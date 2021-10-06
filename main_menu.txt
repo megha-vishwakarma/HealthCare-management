@@ -1,0 +1,27 @@
+HOSPITAL MANAGEMENT SYSTEM 
+This hospital management system mainly consists of three modules, which are
+
+•	Admin Module
+•	Doctor Module
+•	Patient Module
+
+Admin Module:
+•	Dashboard: In this section, admin can view the Patients, Doctors and Appointments.
+•	Doctor: In this section Admin can manage the Doctors to add, edit and delete.
+•	Patient: In this section Admin can manage the Patients to add, edit and delete.
+•	Appointment: In this section Admin can manage the Appointment to add, edit and delete.
+
+Doctor Module
+•	Doctor: In this section Doctor can manage his profile.
+•	Patient: In this section Doctor can manage the Patients to add, edit and delete.
+•	Appointment: In this section Doctor can view the Appointment.
+
+Patient Module
+•	Patient: In this section Patient can manage his profile.
+•	Appointment: In this section Patient can manage his Appointment to add, edit and delete.
+
+
+
+
+
+
