@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<style>
+body {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+h1 {
+  color: Black;
+  text-shadow: 2px 2px 4px #000FFF;
+  font-family:Maiandra GD;
+    font-size:50px;
+}
+form{	font-family:Microsoft JhengHei;
+    font-size:30px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #b3ccff;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a {
+  target: new front;
+}
+</style>
+
+<body>
+<center>
+<h1>Registration From</h1>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="username" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="password" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td>  <button class="button"  value="Submit" name="submit" >Submit<span> 
+</span></button></td>
+   </tr>
+  </table>
+ </form><br><br><br>
+<p>Want to insert more document ...<a href=http://localhost/a/final/Doc%20Upoad/  target="_blank">Click Here</a><p>
+</center>
+</body>
+</html>

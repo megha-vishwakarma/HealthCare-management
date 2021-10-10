@@ -1,0 +1,85 @@
+<html>
+<head>
+<title> result &login</title>
+<script>
+function valid()
+{
+if(f1.t1.value==""||f1.t2.value=="")
+{
+alert("please enter the all feilds");
+}
+else
+{
+var s1=f1.t1.value;
+var s2=f1.t2.value;
+if(s1==s2)
+{
+alert("Password is valid ");
+window.location="http://localhost/a/final/HealthCare-master%20ok/index.php";
+}
+else
+{
+alert("username and password is not match");
+}}
+}
+</script>
+
+<style>
+#circle-btn { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn-container {
+  position: relative;  
+}
+
+button {
+  border: 0;
+  border-radius: 50px;
+  color: white;
+  background: #5f55af;
+  padding: 15px 20px 16px 60px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f72585 50%, #5f55af 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition:all 2s ease;
+}
+
+svg {
+  background: #f72585;
+  padding: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0%;
+}
+
+button:hover {
+   background-position: left bottom;
+}
+</style>
+
+</head>
+<body>
+<center>
+<form name ="f1">
+<h1 style="font-family : Verdana; color:darkred; "><center>HealthCare Protral</h1>
+<br><br><hr>
+<font face="Ebrima" size=5>
+Enter the user name:<input type="text" id="t1">
+<br><br>
+
+Enter username/password:<input type ="password" id="t2"></font>
+<br><br>
+
+<button class="button" value="submit" onclick="valid()">Submit</button>
+</center>
+</body>
+</html>
+
+
+
